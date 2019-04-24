@@ -21,7 +21,7 @@ I use the iOS Notes app to scribble thoughts and lists and the iOS Reminders app
 
     — https://developer.apple.com/documentation/cloudkitjs
 
-    So a development must create a iOS or macOS app before using CloudKit JS?
+    A developer must create a iOS or macOS app before using CloudKit JS?
 * [“cloudkit” on npmjs.com](https://www.npmjs.com/package/cloudkit) doesn’t appear to be an official package. Searching for “cloudkit” on npmjs.com [doesn’t yield many results](https://www.npmjs.com/search?q=cloudkit).
 * There's no open CloudKit JS code on the [github.com/apple org](https://github.com/apple).
 * The CloudKit JS library appears to be browser-only, and only available via Apple’s hosted script:
@@ -49,5 +49,3 @@ I use the iOS Notes app to scribble thoughts and lists and the iOS Reminders app
     * [`Promise`](https://developer.apple.com/documentation/cloudkitjs/cloudkit/1628514-promise) is a property? Modern browsers and Node.js have this as a native object.
     * Some classes appear to [expose a property to identify their type](https://developer.apple.com/documentation/cloudkitjs/cloudkit/useridentitiesresponse#topics), which is a little un-JavaScript-y (prefer `instanceof` or clearer data structures).
 * CloudKit doesn’t seem to provide an API to Notes nor Reminders: a [stackoverflow.com answer](https://stackoverflow.com/a/53289466) indicates that accessing via the web for a server is impossible.
-
-
