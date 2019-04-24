@@ -33,3 +33,10 @@ I use the iOS Notes app to scribble thoughts and lists and the iOS Reminders app
     — https://developer.apple.com/documentation/cloudkitjs
 * [tsl-apple-cloudkit exists on typescriptlibs.org](https://typescriptlibs.org/tsl-apple-cloudkit/), but the source is untrustworthy.
 * [Questions for “cloudkit” and “javascript” on stackoverflow.com](https://stackoverflow.com/questions/tagged/cloudkit+javascript) don’t yield many results (similar for [“cloudkit-js”](https://stackoverflow.com/search?q=cloudkit-js) and [“cloudkit-web-services”](https://stackoverflow.com/questions/tagged/cloudkit-web-services))
+* CloudKit sounds like a service over [CouchDB](http://couchdb.apache.org):
+
+> An app has access to both a public and private database in each container. The _public database_ is for storing user and app data that is shared between all instances of the app…There’s a _private database_ for each user of your app, but the app only has access to the private database of the current user.
+* Many of the [developer.apple.com](https://developer.apple.com/documentation/) pages for CloudKit JS have a “this page no longer updated” message at the top.
+* CloudKit doesn’t seem to provide an API to Notes nor Reminders.
+
+
