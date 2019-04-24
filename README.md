@@ -39,6 +39,7 @@ I use the iOS Notes app to scribble thoughts and lists and the iOS Reminders app
 * Many of the [developer.apple.com](https://developer.apple.com/documentation/) pages for CloudKit JS have a “this page no longer updated” message at the top.
 
     — https://developer.apple.com/library/archive/documentation/DataManagement/Conceptual/CloudKitQuickStart/EnablingiCloudandConfiguringCloudKit/EnablingiCloudandConfiguringCloudKit.html#//apple_ref/doc/uid/TP40014987-CH2-SW1
-* CloudKit doesn’t seem to provide an API to Notes nor Reminders.
+* The [“CloudKit Catalog: An Introduction to CloudKit (Cocoa and JavaScript)”](https://developer.apple.com/library/archive/samplecode/CloudAtlas/Introduction/Intro.html#//apple_ref/doc/uid/TP40014599) is very outdated (“Version 6.0, 2016-09-13”) and contains an example with Node.js antipatterns and aged front-end web practices.
+* CloudKit doesn’t seem to provide an API to Notes nor Reminders: a [stackoverflow.com answer](https://stackoverflow.com/a/53289466) indicates that accessing via the web for a server is impossible.
 
 
