@@ -41,6 +41,11 @@ I use the iOS Notes app to scribble thoughts and lists and the iOS Reminders app
 
 * Many of the [developer.apple.com](https://developer.apple.com/documentation/) pages for CloudKit JS have a “this page no longer updated” message at the top.
 * The [“CloudKit Catalog: An Introduction to CloudKit (Cocoa and JavaScript)”](https://developer.apple.com/library/archive/samplecode/CloudAtlas/Introduction/Intro.html#//apple_ref/doc/uid/TP40014599) is very outdated (“Version 6.0, 2016-09-13”) and contains an example with Node.js antipatterns and aged front-end web practices.
+* The [CloudKit JS API documentation](https://developer.apple.com/documentation/cloudkitjs/cloudkit) is a little weird:
+    * The sections include “Classes,” “Constants,” “Enumerations,” “Structures,” and [pages refer to types as “dictionary”](https://developer.apple.com/documentation/cloudkitjs/cloudkit/record)…this sounds like a native library!
+    * Method documentation pages [don’t include links to return types](https://developer.apple.com/documentation/cloudkitjs/cloudkit/1628647-getdefaultcontainer); in some cases [the return type isn’t named](https://developer.apple.com/documentation/cloudkitjs/cloudkit/container/1773251-getdatabasewithdatabasescope).
+    * [`Promise`](https://developer.apple.com/documentation/cloudkitjs/cloudkit/1628514-promise) is a property? Modern browsers and Node.js have this as a native object.
+    * Some classes appear to [expose a property to identify their type](https://developer.apple.com/documentation/cloudkitjs/cloudkit/useridentitiesresponse#topics), which is a little un-JavaScript-y (prefer `instanceof` or clearer data structures).
 * CloudKit doesn’t seem to provide an API to Notes nor Reminders: a [stackoverflow.com answer](https://stackoverflow.com/a/53289466) indicates that accessing via the web for a server is impossible.
 
 
