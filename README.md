@@ -6,6 +6,8 @@ _A look at CloudKit JS_
 
 I use the iOS Notes app to scribble thoughts and lists and the iOS Reminders app for ToDos. Can the CloudKit Notes/Reminders backend-as-a-service power custom web applications or integrate with other web services?
 
+**Update:** CloudKit JS doesn’t appear to offer a way to access Notes or Reminders via an API.
+
 ## Links
 
 * [CloudKit JS homepage](https://developer.apple.com/documentation/cloudkitjs)
